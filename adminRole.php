@@ -33,3 +33,6 @@ class adminRole
         return true;
     }
 }
+
+$adminRole = new adminRole("adminRole");
+var_dump($adminRole);
