@@ -29,3 +29,6 @@ class userRole
         return true;
     }
 }
+
+$userRole = new userRole("userRole");
+var_dump($userRole);
