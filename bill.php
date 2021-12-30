@@ -36,3 +36,6 @@ class bill
         return true;
     }
 }
+
+$bill = new bill("1", 14.99);
+var_dump($bill);
