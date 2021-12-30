@@ -18,6 +18,11 @@ class user
     public function verifyLogin()
     {
     }
+
+    public function showLoginStatus(): bool
+    {
+        return true;
+    }
 }
 
 $user = new user("Jan", "Jansen", "janjansen@gmail.com", "0687654321");
