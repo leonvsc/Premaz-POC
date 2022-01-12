@@ -4,6 +4,9 @@ class item
 {
     private int $quantity;
     private float $price;
+    private winkelwagen $winkelwagen;
+    private order $order;
+    private product $product;
 
     public function __construct($quantity, $price)
     {

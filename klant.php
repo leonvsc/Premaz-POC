@@ -1,10 +1,12 @@
 <?php
 
-class klant
+class klant extends user
 {
 
     private string $id;
     private string $password;
+    private adres $adres;
+    private winkelwagen $winkelwagen;
 
     public function __construct($id, $password)
     {

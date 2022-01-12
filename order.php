@@ -4,6 +4,10 @@ class order
 {
     private string $orderId;
     private string $orderDatum;
+    private adres $factuurAdres;
+    private adres $leverAdres;
+    private bill $bill;
+    private orderStatus $orderStatus;
 
     public function __construct($orderId, $orderDatum)
     {

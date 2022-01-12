@@ -6,6 +6,8 @@ class user
     private string $achternaam;
     private string $email;
     private string $telefoonnummer;
+    private account $account;
+    private role $role;
 
     public function __construct($voornaam, $achternaam, $email, $telefoonnummer)
     {
