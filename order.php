@@ -4,8 +4,8 @@ class order
 {
     private string $orderId;
     private string $orderDatum;
-    private adres $factuurAdres;
-    private adres $leverAdres;
+    private address $invoiceAddress;
+    private address $deliveryAddress;
     private bill $bill;
     private orderStatus $orderStatus;
 

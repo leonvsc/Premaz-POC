@@ -1,12 +1,12 @@
 <?php
 
-class klant extends user
+class customer extends user
 {
 
     private string $id;
     private string $password;
-    private adres $adres;
-    private winkelwagen $winkelwagen;
+    private address $address;
+    private shoppingCart $shoppingCart;
 
     public function __construct($id, $password)
     {
@@ -44,5 +44,5 @@ class klant extends user
     }
 }
 
-$klant = new klant(1, "123456");
-var_dump($klant);
+$customer = new customer(1, "123456");
+var_dump($customer);

@@ -2,19 +2,19 @@
 
 class user
 {
-    private string $voornaam;
-    private string $achternaam;
+    private string $firstName;
+    private string $lastName;
     private string $email;
-    private string $telefoonnummer;
+    private string $telephoneNumber;
     private account $account;
     private role $role;
 
-    public function __construct($voornaam, $achternaam, $email, $telefoonnummer)
+    public function __construct($firstName, $lastName, $email, $telephoneNumber)
     {
-        $this->voornaam = $voornaam;
-        $this->achternaam = $achternaam;
+        $this->firstName = $firstName;
+        $this->lastName = $lastName;
         $this->email = $email;
-        $this->telefoonnummer = $telefoonnummer;
+        $this->telephoneNumber = $telephoneNumber;
     }
 
     public function verifyLogin()

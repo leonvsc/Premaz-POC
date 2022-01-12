@@ -1,6 +1,6 @@
 <?php
 
-class winkelwagen
+class shoppingCart
 {
     public function update(): bool
     {
@@ -21,5 +21,5 @@ class winkelwagen
     }
 }
 
-$winkelwagen = new winkelwagen();
-var_dump($winkelwagen);
+$shoppingCart = new shoppingCart();
+var_dump($shoppingCart);
