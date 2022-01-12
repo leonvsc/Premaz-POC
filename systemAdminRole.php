@@ -1,6 +1,6 @@
 <?php
 
-class systemAdminRole
+class systemAdminRole extends role
 {
     private string $role;
 
