@@ -6,18 +6,18 @@ class address
     private string $name;
     private string $street;
     private string $houseNumber;
-    private string $postalCode;
-    private string $place;
-    private string $telephoneNumber;
+    private string $zipcode;
+    private string $area;
+    private string $phoneNumber;
 
-    public function __construct($name, $street, $houseNumber, $postalCode, $place, $telephoneNumber)
+    public function __construct($name, $street, $houseNumber, $zipcode, $area, $phoneNumber)
     {
         $this->name = $name;
         $this->street = $street;
         $this->houseNumber = $houseNumber;
-        $this->postalCode = $postalCode;
-        $this->place = $place;
-        $this->telephoneNumber = $telephoneNumber;
+        $this->zipcode = $zipcode;
+        $this->area = $area;
+        $this->phoneNumber = $phoneNumber;
     }
 }
 

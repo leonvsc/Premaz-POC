@@ -2,19 +2,13 @@
 
 class role
 {
-    private string $firstName;
-    private string $lastName;
-    private string $email;
-    private string $telephoneNumber;
+    private string $role;
 
-    public function __construct($firstName, $lastName, $email, $telephoneNumber)
+    public function __construct($role)
     {
-        $this->$firstName = $firstName;
-        $this->$lastName = $lastName;
-        $this->$email = $email;
-        $this->$telephoneNumber = $telephoneNumber;
+        $this->$role = $role;
     }
 }
 
-$role = new role("Jan", "Jansen", "janjansen@gmail.com", "0612345678");
+$role = new role("Admin");
 var_dump($role);

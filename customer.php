@@ -1,17 +1,15 @@
 <?php
 
-class customer extends user
+class customer extends account
 {
 
     private string $id;
-    private string $password;
     private address $address;
     private shoppingCart $shoppingCart;
 
-    public function __construct($id, $password)
+    public function __construct($id)
     {
         $this->id = $id;
-        $this->password = $password;
     }
 
     public function addAdress(): bool
